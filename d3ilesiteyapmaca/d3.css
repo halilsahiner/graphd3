@@ -1,0 +1,19 @@
+p{
+text-align: center; /*align our text in center*/
+color: teal; /*set color to teal*/
+font-family: Arial; /*change font family */
+font-size: 66px; /*set font size to 66 pixels*/
+}
+
+.text-beautify{
+text-align: center; /*align our text in center*/
+color: teal; /*set color to teal*/
+font-family: Tahoma; /*change font family */
+font-size: 66px; /*set font size to 66 pixels*/
+}
+
+#image{
+visibility: hidden;/* hide the image */
+width: 100%; /* set width of image to 100% of body */
+height: 50%; /* set height of image to 50% of body */
+}

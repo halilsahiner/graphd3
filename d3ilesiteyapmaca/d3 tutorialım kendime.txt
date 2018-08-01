@@ -1,0 +1,17 @@
+Transform Library
+
+D3.js provides a separate library to manage transform without manually creating the transform attributes. It provides methods to handle all type of transformation. Some of the methods are transform(), translate(), scale(), rotate(), etc. You can include d3-transform in your webpage using the following script.
+
+<script src = "http://d3js.org/d3.v4.min.js"></script>
+<script src = "d3-transform.js"></script>
+
+In the above example, the transform code can be written as shown below −
+
+var my_transform = d3Transform()
+   .translate([60, 60])
+   .rotate(30);
+
+var group = svg
+   .append("g")
+   .attr("transform", my_transform);
+
